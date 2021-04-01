@@ -17,29 +17,29 @@
 // }
 
 //C
-const n = 5
-let output = 1
-let temp = ''
+// const n = 5
+// let output = 1
+// let temp = ''
 
-for(let i = 1; i <= n; i++){
+// for(let i = 1; i <= n; i++){
 
-  if(output >= n){
-    for(let j = output; j >= 1; j--){
-      temp += output + ' '
-      output--
-    }
-  }
+//   if(output >= n){
+//     for(let j = output; j >= 1; j--){
+//       temp += output + ' '
+//       output--
+//     }
+//   }
 
-  if(output <= n && output > 0){
-    for(let j = 1; j <= i; j++){
-      temp += output + ' '
-      output++
-    }
-  }
+//   if(output <= n && output > 0){
+//     for(let j = 1; j <= i; j++){
+//       temp += output + ' '
+//       output++
+//     }
+//   }
 
-  temp += '\n'
-}
-console.log(temp)
+//   temp += '\n'
+// }
+// console.log(temp)
 
 // function outputD(input){
 //   let temp = ''
